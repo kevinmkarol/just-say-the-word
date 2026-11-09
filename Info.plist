@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleIdentifier</key>
+  <string>studio.crossedwires.justsaytheword</string>
+  <key>CFBundleName</key>
+  <string>Just Say the Word</string>
+  <key>CFBundleDisplayName</key>
+  <string>Just Say the Word</string>
+  <key>CFBundleExecutable</key>
+  <string>JustSayTheWord</string>
+  <key>CFBundleIconFile</key>
+  <string>AppIcon</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>0.1.1</string>
+  <key>CFBundleVersion</key>
+  <string>2</string>
+  <key>LSMinimumSystemVersion</key>
+  <string>14.0</string>
+  <!-- Starts as a menu-bar app with no Dock icon; it shows in the Dock only while its window is open. -->
+  <key>LSUIElement</key>
+  <true/>
+  <key>NSHighResolutionCapable</key>
+  <true/>
+  <key>NSPrincipalClass</key>
+  <string>NSApplication</string>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Just Say the Word records while you hold the hotkey and transcribes on this Mac with whisper.cpp.</string>
+</dict>
+</plist>
